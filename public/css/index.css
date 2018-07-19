@@ -1,0 +1,344 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-image: url(../img/1.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 10px;
+}
+.main {
+	margin-top: 100px;
+	text-align: center;
+}
+.banner {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.banner h2 {
+	font-size: 250px;
+	letter-spacing: 20px;
+	color: #fff;
+}
+span {
+	color: aqua;
+}
+h1 {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+h4 {
+	margin: auto;
+	font-size: 15px;
+	/*letter-spacing: 20px;*/
+	color: #fff;
+}
+.mainpage {
+	text-align: center;
+	width: 70%;
+	margin-top: 50px;
+	color: white;
+}
+.banner >a {
+	text-decoration: none;
+	list-style-type: none;
+	color: aqua;
+}
+.border {
+	width: 50%;
+	padding: 10px;
+	color: #fff;
+	outline: none;
+	border: 1px solid aqua;
+	background: none;
+	border-radius: 50px;
+}
+.border2 {
+	width: 20%;
+	padding: 10px;
+	margin-left: 10px;
+	outline: none;
+	border: 1px solid aqua;
+	background: aqua;
+	border-radius: 50px;
+}
+.border2:hover {
+	background-color: inherit;
+	color: white;
+}
+.input-group {
+	margin-top: 60px;
+}
+.container a {
+	color: white;
+	margin: 0px 20px;
+}
+.mainpage a {
+	color: aqua;
+}
+.input {
+	margin : 50px 0px 0px 0px;
+}
+ul {
+	list-style-type: none;
+	margin: 100px 0px 0px 0px;
+	padding: 0px;
+}
+li {
+	display: inline-block;
+}
+ul li a {
+	font-size: 20px;
+}
+li a:hover {
+	text-decoration: none;
+	list-style-type: none;
+	color : aqua;
+	cursor: pointer;
+	background-color: inherit;
+}
+#menu {
+	margin: 50px auto;
+	background-color: inherit;
+	display :block;
+}
+#menu li a {
+	margin: 10px 5px;
+	padding: 10px;
+	background-color:aqua;
+	color:gray;
+	opacity:0.3;
+}
+#menu li a:hover {
+	background-color: inherit;
+	color : aqua;
+	opacity:1;
+}
+.nav-justified {
+	width: 50%;
+}
+.edit {
+	float: left;
+}
+.edit2 {
+	float: right;
+}
+.footer {
+	margin: 100px 0px 0px 0px;
+	padding: 0px;
+	color: white;
+	text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+
+.banner h2 {
+	font-size: 250px;
+}
+.inpu1 {
+	padding: 0px;
+}
+.inpu2 {
+	padding: 15px 0 0 0;
+}
+.edit {
+	float: none;
+}
+.edit2 {
+	float: none;
+}
+}
+
+@media only screen and (max-width: 900px) {
+
+.banner h2 {
+	font-size: 250px;
+}
+.inpu1 {
+	padding: 0px;
+}
+.inpu2 {
+	padding: 15px 0 0 0;
+}
+.edit {
+	float: none;
+}
+.edit2 {
+	float: none;
+}
+}
+
+@media only screen and (max-width: 736px) {
+
+.banner h2 {
+	font-size: 250px;
+}
+.inpu1 {
+	padding: 0px;
+}
+.inpu2 {
+	padding: 15px 0 0 0;
+}
+.edit {
+	float: none;
+}
+.edit2 {
+	float: none;
+}
+}
+
+@media only screen and (max-width: 667px) {
+
+.banner h2 {
+	font-size: 225px;
+}
+.inpu1 {
+	padding: 0px;
+}
+.inpu2 {
+	padding: 15px 0 0 0;
+}
+.edit {
+	float: none;
+}
+.edit2 {
+	float: none;
+}
+}
+
+@media only screen and (max-width: 480px) {
+
+.banner h2 {
+	font-size: 200px;
+}
+.inpu1 {
+	padding: 0px;
+}
+.inpu2 {
+	padding: 15px 0 0 0;
+}
+.edit {
+	float: none;
+}
+.edit2 {
+	float: none;
+}
+}
+
+@media only screen and (max-width: 414px) {
+
+.banner h2 {
+	font-size: 175px;
+}
+.inpu1 {
+	padding: 0px;
+}
+.inpu2 {
+	padding: 15px 0 0 0;
+}
+.edit {
+	float: none;
+}
+.edit2 {
+	float: none;
+}
+}
+
+@media only screen and (max-width:375px) {
+
+.banner h2 {
+	font-size: 150px;
+}
+.inpu1 {
+	padding: 0px;
+}
+.inpu2 {
+	padding: 15px 0 0 0;
+}
+.edit {
+	float: none;
+}
+.edit2 {
+	float: none;
+}
+}
+
+@media only screen and (max-width:320px) {
+
+.banner h2 {
+	font-size: 150px;
+}
+.inpu1 {
+	padding: 0px;
+}
+.inpu2 {
+	padding: 15px 0 0 0;
+}
+.edit {
+	float: none;
+}
+.edit2 {
+	float: none;
+}
+}
+
+@media only screen and (max-width:320px) {
+
+.banner h2 {
+	font-size: 125px;
+}
+.inpu1 {
+	padding: 0px;
+}
+.inpu2 {
+	padding: 15px 0 0 0;
+}
+.edit {
+	float: none;
+}
+.edit2 {
+	float: none;
+} 
+}
+
+@media only screen and (max-width:280px) {
+
+.banner h2 {
+	font-size: 100px;
+	text-align: center;
+}
+.inpu1 {
+	padding: 0px;
+}
+.inpu2 {
+	padding: 15px 0 0 0;
+}
+.edit {
+	float: none;
+}
+.edit2 {
+	float: none;
+}
+}
+
+@media only screen and (max-width:235px) {
+
+.banner h2 {
+	font-size: 75px;
+}
+.inpu1 {
+	padding: 0px;
+}
+.inpu2 {
+	padding: 15px 0 0 0;
+}
+.edit {
+	float: none;
+}
+.edit2 {
+	float: none;
+}
+}
