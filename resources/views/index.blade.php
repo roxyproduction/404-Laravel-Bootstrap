@@ -384,14 +384,14 @@
           <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
               <div class="container">
-                <form  class=" input" action="#" method="post">
+                <form  class="input" action="">
                   <div class="row">
                     <div class="col-sm-12 col-md-12 offset-lg-3 offset-xl-3">
                       <div class="col-lg-7 col-md-12 col-sm-12 col-xl-7 inpu1">
                         <input class="border edit form-group" type="text" name="search" placeholder="Nhập vào từ khóa cần tìm...">
                       </div>
                       <div class="col-sm-12 col-lg-5 col-md-12 col-xl-5 inpu2">
-                        <input class="border2 edit2" type="submit" value="Search">
+                        <input class="border2 edit2" type="button" value="Search">
                       </div>
                     </div>
                   </div>
